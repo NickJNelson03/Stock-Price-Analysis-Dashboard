@@ -25,4 +25,13 @@ clean:
 	rm -rf $(VENV)
 	@echo "✅ Cleanup complete."
 
-.PHONY: setup install run full-setup clean
+push:
+	git status
+	@for file in $$(git status --porcelain | awk '{print $$2}'); do \
+		read -p "Enter commit message for $$file: " msg; \
+		git add $$file; \
+		git commit -m "$$msg"; \
+	done; \
+	git push origin main
+
+.PHONY: setup install run full-setup push
