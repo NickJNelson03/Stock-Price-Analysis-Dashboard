@@ -18,3 +18,6 @@ Include Relative Strength Index (RSI): Calculate 14-day RSI for overbought/overs
 
 ## Enhance Data Visualization
 
+Plot stock prices along with SMA and EMA indicators.
+
+Add RSI as a subplot for better clarity.
