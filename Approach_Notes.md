@@ -24,3 +24,6 @@ Add RSI as a subplot for better clarity.
 
 ## Automate Daily Data Fetching and Commits
 
+Use GitHub Actions to run fetch_data.py daily.
+
+After running, automatically commit and push updated CSVs and plots.
