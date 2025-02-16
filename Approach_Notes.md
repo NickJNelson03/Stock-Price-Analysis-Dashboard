@@ -22,4 +22,4 @@ Plot stock prices along with SMA and EMA indicators.
 
 Add RSI as a subplot for better clarity.
 
-
+## Automate Daily Data Fetching and Commits
