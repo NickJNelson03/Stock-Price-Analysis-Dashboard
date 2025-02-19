@@ -1,4 +1,4 @@
-# Approach Note
+# Approach Notes
 
 ## Next Steps for fetch_data.py:
 
