@@ -1,4 +1,4 @@
-# 📈 Daily Stock Data Analysis
+# 📈 Daily Stock Data Analysi
 
 ## 🔍 Project Overview
 This project automates the daily fetching, analysis, and visualization of stock prices using **Yahoo Finance (`yfinance`)**. The data is stored in CSV format and updated daily using **GitHub Actions**.
